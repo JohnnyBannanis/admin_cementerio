@@ -1,0 +1,83 @@
+:root{
+    --primary: #3C096C;
+    --light: #ffffff;
+    --grey: #efefef;
+}
+
+body {
+    overflow: hidden !important;
+    
+    font-weight: 300;
+    color: var(--primary);
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+.bg-primary{
+    background-color: var(--primary) !important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #9D4EDD;
+    border-color: #9D4EDD;
+}
+.btn-primary:hover{
+    color: #000;
+    background-color: #C77DFF;
+    border-color: #C77DFF;
+}
+
+#sidebar-container {
+    min-height: 100vh;
+}
+
+#sidebar-container .logo{
+    padding: .875rem 1.25rem;
+}
+
+#sidebar-container .menu{
+    width: 18rem;
+}
+
+#content{
+    /*overflow-y: auto;*/
+    height: 100vh;
+    padding-bottom: 5rem;
+}
+
+.table-fixed tbody {
+    max-height: 32rem;
+    overflow-y: auto;
+    width: 100%;
+}
+
+.table-fixed thead,
+.table-fixed tbody,
+.table-fixed tr,
+.table-fixed td,
+.table-fixed th {
+    display: block;
+}
+
+.table-fixed tbody td,
+.table-fixed tbody th,
+.table-fixed thead > tr > th {
+    float: left;
+    position: relative;
+}
+
+.table-dark{
+    background-color: #10002B;
+    
+}
+
+.form-dark{
+    background-color: #10002B !important;
+    color: white;
+    padding: 5rem;
+    border-radius: 20px !important;
+    box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+}
